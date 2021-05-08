@@ -1,0 +1,314 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* Header Start */
+
+header {
+  background-color: lightgreen;
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  width: 100%;
+}
+.logo__home {
+  padding: 9px 16px;
+  width: auto;
+  display: block;
+  float: left;
+  border: none;
+  background-color: lightseagreen;
+  color: white;
+  text-decoration: none;
+}
+.logo__home:hover {
+  background-color: rgb(112, 235, 55);
+  color: black;
+  transition: 0.4s;
+}
+.navbar {
+  padding: 9px 16px;
+  width: auto;
+  display: block;
+  float: left;
+  border: none;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+.navbar:hover {
+  background-color: lightseagreen;
+  color: black;
+  transition: 0.4s;
+}
+
+/* Header End */
+
+/* Boat Img Start */
+
+.imgcover {
+  width: 100%;
+  padding-top: 38px;
+}
+
+/* Boat IMg Start */
+
+/* Our Team + Avatar Start */
+.ottop {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.ot {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+.row {
+  text-align: center;
+  /* display: flex; */
+}
+.quarter {
+  width: 100%;
+}
+.circle {
+  border-radius: 50%;
+}
+
+/* Our Team + Avatar End */
+
+/* Our Work + Card Start */
+.theme {
+  color: #fff;
+  background-color: #333333;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.quarter1 {
+  width: 310px;
+  box-sizing: inherit;
+  display: block;
+}
+.ow {
+  padding: 0 8px;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 30px;
+}
+.pera {
+  padding: 0 8px;
+  font-size: 15px;
+}
+.owcard {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.quarter2 {
+  margin: 0 8px;
+  margin-bottom: 10px;
+  width: 310px;
+  float: left;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+h4 {
+  border-bottom: 1px solid;
+  margin-bottom: 0px;
+}
+
+/* Our Work + Card End */
+
+/* Pricing + Card Start*/
+
+.thame {
+  margin: 0;
+  padding: 0;
+  padding: 0 10px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+  background-color: silver;
+}
+.priz {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+}
+.biri {
+  color: black;
+  background-color: lightgreen;
+  font-size: 24px;
+  padding: 20px 0px;
+}
+.pricingcard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.quarter3 {
+  text-align: center;
+  width: 420px;
+  margin: 0 10px;
+  margin-bottom: 10px;
+}
+.quarter3:hover {
+  box-shadow: 0px 5px 10px 0px black;
+}
+.bronze {
+  color: black;
+  background-color: #b08d57;
+  font-size: 24px;
+  padding: 20px 0px;
+}
+.silver {
+  color: black;
+  background-color: #666666;
+  font-size: 24px;
+  padding: 20px 0px;
+}
+.gold {
+  color: black;
+  background-color: #ffd700;
+  font-size: 24px;
+  padding: 20px 0px;
+}
+.diamond {
+  color: black;
+  background-color: #b9f2ff;
+  font-size: 24px;
+  padding: 20px 0px;
+}
+.sed {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: lightgreen;
+}
+.sod {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: lightgreen;
+}
+.sud {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: lightgreen;
+}
+.sad {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: lightgreen;
+}
+.site__logo {
+  width: 100%;
+}
+.lie {
+  background-color: linen;
+}
+.lisingup {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  background-color: #ccc;
+  background-color: black;
+}
+
+.btnsingup {
+  padding: 20px 30px;
+  border: none;
+  color: #fff;
+  background-color: #009688;
+  cursor: pointer;
+  font-size: 20px;
+}
+.btnsingup:hover {
+  background-color: #f0f0f0;
+  color: black;
+}
+ul {
+  border: 1px solid #ccc;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border-color: black;
+}
+ul li {
+  padding: 8px 16px;
+  box-sizing: inherit;
+  display: block;
+  border-bottom: 1px solid#ddd;
+  border-color: black;
+}
+/* Pricing + Card End*/
+
+/* Q&A START */
+
+.quarter4 {
+  color: #fff;
+  background-color: #333333;
+  padding-top: 25px;
+  padding-bottom: 64px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.qa {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 10px;
+}
+.details {
+  text-align: center;
+}
+.grplink {
+  text-align: center;
+}
+/* Q&A END */
+
+/* END Img Start */
+
+.imgmap {
+  padding: 0;
+}
+
+/* END Img Start */
+
+/* Footer Start */
+footer {
+  color: #fff;
+  background-color: #000000;
+  padding-top: 34px;
+  padding-bottom: 34px;
+  text-align: center;
+}
+.flwme {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 20px;
+}
+.arrow {
+  font-size: 24px;
+
+  display: inline-block;
+  padding: 8px 16px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s;
+  scroll-behavior: smooth;
+}
+.arrow:hover {
+  color: greenyellow;
+}
+.noxx {
+  color: rgb(245, 28, 28);
+  text-decoration: none;
+  font-size: 30px;
+}
+/* Footer End */
